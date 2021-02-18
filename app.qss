@@ -1,0 +1,151 @@
+
+* {
+  font-family: "微软雅黑", "Microsoft Yahei", "苹方", "Pingfang SC";
+}
+
+.container {
+  margin: 50rpx;
+  box-sizing: border-box;
+  display: block;
+}
+
+.strong {
+  font-weight: bolder;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.alert-primary {
+  width: auto;
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.alert-success {
+  width: auto;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  width: auto;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-warning {
+  width: auto;
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.alert-heading {
+  font-size: 50rpx;
+  font-weight: bolder;
+}
+
+button {
+  border-radius: 0.75rem;
+  margin: 0.25rem;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+button[type="primary"] {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.button-hover[type="primary"] {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+button[type="secondary"] {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.button-hover[type="secondary"] {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+button[type="warn"] {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.button-hover[type="warn"] {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+button[type="outline-primary"] {
+  color: #007bff;
+  border: 1px solid transparent;
+  border-color: #007bff;
+}
+
+.button-hover[type="outline-primary"] {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.text-center {
+  display: block;
+  text-align: center !important;
+}
+
+.display-3 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.userAvatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  box-shadow: 0rpx 10rpx 50rpx 10rpx rgba(85, 85, 85, 0.10);
+}
+
+.navigator-hover {
+  background-color: rgba(0,0,0,0);
+  opacity: 1;
+}
+  

@@ -1,0 +1,39 @@
+h3.lead {
+    margin-bottom: 0.5rem;
+}
+
+.barx {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+}
+
+input.searchBar {
+    border: 2px solid #057BFF;
+    background: transparent;
+    top: 0;
+    right: 0;
+    height: 100rpx;
+    border-radius: 1rem 0 0 1rem;
+}
+
+button[type="search"] {
+    margin: 0;
+    border: 2px solid #057BFF;
+    border-radius: 0 1rem 1rem 0;
+    height: calc(100rpx + 4px);
+    width: 200rpx;
+    background: #057BFF;
+    top: 0;
+    right: 0;
+    color: #fff;
+    justify-content: center;
+    font-size: 43rpx;
+    font-weight: 200;
+}
+
+.result {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}

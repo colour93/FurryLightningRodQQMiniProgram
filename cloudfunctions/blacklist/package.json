@@ -1,0 +1,15 @@
+{
+  "name": "blacklist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "colour93",
+  "license": "ISC",
+  "dependencies": {
+    "qq-server-sdk": "latest",
+    "request": "^2.88.2"
+  }
+}

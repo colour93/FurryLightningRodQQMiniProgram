@@ -1,0 +1,44 @@
+
+.intro {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #e9ecef;
+  border-radius: 0.75rem;
+}
+
+.header {
+  font-size: 100rpx;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.heading {
+}
+
+.welcome {
+  margin: 0.25rem;
+}
+
+.userInfo {
+  background-color: #ffffff;
+  box-shadow: 0rpx 10rpx 50rpx 10rpx rgba(85, 85, 85, 0.10);
+  padding: 1rem 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+
+.welcome {
+  flex-direction: column;
+}
+
+/* .LogOut {
+  display: none !important;
+} */
+
